@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalhoPrincipal {
+    background-image: url(images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 15px 0;	
+}
+
+.container {
+	width: 93%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.imagem-logo{
+    width: 200px;
+    margin-left: 50%;
+    margin-top: 20%;
+    font-size: 2rem;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+}
+
+.cabecalhoPrincipal-nav-link {
+    margin-top: 5%;
+    margin: 5% 30px 10px 10px;
+	margin-bottom: 10px;
+	color: white;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: .5s ease-in-out;
+    padding-bottom: 10px;
+}
+.cabecalhoPrincipal-nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+.cabecalhoPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quadrado-header{
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+    border: 2px solid;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 120px 60px 160px 10%;
+}
+
+.texto-1{
+    padding-top: 25px;
+}
+
+.texto-3{
+    padding-bottom: 25px;
+}
+
+.texto-header{
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+main{
+    margin: 175px 100px 200px 100px;
+}
+.mid{
+    display: flex;
+    position: relative;
+}
+
+.imagem-mid{
+    width: 700px;
+    height: 500px;
+
+}
+
+.leader{
+    background-color: white;
+    margin-top: 20%;
+    padding: 90px 40px 50px 40px;
+    position:absolute;
+    margin-left: 46%;
+    width: 500px;
+}
+.titulo-mid{
+    text-transform: uppercase;
+    padding-bottom: 35px;
+    padding-left: 16%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: hsl(0, 0%, 0%);
+}
+.paragrafo-mid{
+    text-align: left;
+    padding-left: 16%;
+    font-size: 13px;
+    line-height: 20px;
+    color: hsl(0, 0%, 41%);
+}
+
+
+.creations{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+
+.titulo-creations{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.botao-creations{
+    padding: 12px 40px 2px 40px;
+    border: 1px solid black;
+    background-color: white;
+    text-transform: uppercase;
+    transition: .7s ease-in-out;
+}
+.botao-creations:hover{
+    background-color: black;
+    color: white;
+}
+.grupo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.grupo-2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+.grupo-fotos{
+    display: flex;
+    position: relative;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.grupo-fotos:hover{
+    opacity: .5;
+    color: black;
+}
+.grupo-fotos:hover .retangulo p{
+    color: black;
+}
+.retangulo{
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 140%;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+.descricao-itens{
+    font-size: 24px;
+}
+
+footer{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 3%;
+}
+.redes-sociais .logo{
+    width: 150px;
+}
+.icone-rede{
+    margin-right: 5px;
+}
+.icone{
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.icone:hover{
+    border-bottom: 1px solid white;
+}
+
+.menu-footer{
+    margin-top: 3%;
+    color: white;
+    display: flex;
+    margin-left: 10%;
+    text-transform: capitalize;
+    padding-bottom: 4%;
+}
+.menu{
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    transition: .7s ease-in-out;
+    padding-bottom: 10px;
+}
+.menu:hover{
+    border-bottom: 1px solid white;
+}
+.copy{
+    margin-left: 45%;
+    color: hsl(0, 0%, 41%);
+}
